@@ -1,0 +1,261 @@
+/*Navbar related CSS*/
+.navbar-brand {
+    margin-left: 2%;
+    font-size: xx-large;
+}
+.nav-link {
+    font-size: x-large;
+}
+/*Footer related CSS*/
+.footer-top{
+    background-color: #9512d6;
+    padding: 80px 0;
+}
+.segment-one h3{
+    font-family:fantasy;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+.segment-two h3{
+    font-family:fantasy;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.segment-three h3{
+    font-family:fantasy;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+.segment-four h3{
+    font-family:fantasy;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.segment-one h3:before{
+    content: '|';
+    color: #c65039;
+    padding-right:10px;
+}
+.segment-two h3:before{
+    content: '|';
+    color: #c65039;
+    padding-right:10px;
+}
+.segment-three h3:before{
+    content: '|';
+    color: #c65039;
+    padding-right:10px;
+}
+.segment-four h3:before{
+    content: '|';
+    color: #c65039;
+    padding-right:10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-four address{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-four address li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 20px;
+    color: #999;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+} 
+.segment-four address li a{
+    color: whitesmoke;
+    text-decoration: none;
+} 
+.segment-three a{
+    background-color: #494848;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+} 
+.segment-three a i{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 12px;
+} 
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 60px;
+
+}
+/* footer respnosive css
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+    .footer-top{
+        padding: 50px 0;
+    }
+} */
+
+/*Form related CSS*/
+.container-form {
+    border-color: #9512d6;
+    border-style: solid;
+    width: 50%;
+    background-color: rgb(220, 226, 231); 
+}
+.container-inside {
+    background-color: #9512d6;
+    padding-left: 0px;
+    width: 103.5%;
+    height: 50px;
+    margin-left: -12px;
+    padding-left: 0px;
+    position: static;
+}
+.Form-Heading {
+    font-size: x-large;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.container-image {
+    border-color: #9512d6;
+    border-style: dotted;
+    width: 50%;
+}
+.btn-position {
+    margin-left: 0%;
+    width: 100%;
+}
+/*Table related CSS*/
+.btn-view {
+    width: 50%
+}
+.btn-update {
+    width: 50%
+}
+.btn-delete {
+    width: 50%
+}
+th {
+    margin-left: 200px;
+}
+#searchBar {
+    margin-left: 370%;
+    width: 150%;
+    margin-bottom: -6%;
+}
+/*Single Pet View related CSS*/
+.x {
+    background-color:  #9512d6;
+    margin-top: -1%;
+    width:50%
+}
+.title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;    
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;  
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.btn {
+    margin-top: auto;
+}
+.btnx {
+    width: 50%
+}
+/*Home realted CSS*/
+.home-card {
+    margin-top: 10%;
+    float: none;
+    align-items: flex-end;
+    width: 20%;
+}
+.contApp1{
+    margin-left: 2%;
+}
+.cardx {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 4%;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 26px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+.cardcat1{
+    display: inline-block;
+    width: 400px;
+    padding-bottom: 15%;
+    height: 400px;
+    margin-top: 2%;
+}
+ 

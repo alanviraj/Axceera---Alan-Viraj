@@ -1,0 +1,6 @@
+1. Inserted a new Pet
+2. Retrieved all Pets
+3. Retrieved a Single Pet
+4. Updated a Pet
+5. Deleted a Pet
+6. Searching a Pet using it's Name
