@@ -58,11 +58,11 @@ class Delete_Pet extends Component {
                         <form>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Pet Name</label>
-                                <input type="name" class="form-control" id="name" aria-describedby="name" name="name" value={this.state.singlePet.name} />
+                                <input type="name" class="form-control" id="name" aria-describedby="name" name="name" value={this.state.singlePet.name} readOnly/>
                             </div>
                             <div class="mb-3">
                                 <label for="description" class="form-label">Pet Description</label>
-                                <textarea class="form-control" id="description" name="description" value={this.state.singlePet.description}  rows="3"></textarea>
+                                <textarea class="form-control" id="description" name="description" value={this.state.singlePet.description}  rows="3" readOnly></textarea>
                             </div>
                             <div className="container container-image">
                                 <img src="http://placeimg.com/640/480/animals" style={{width:"100%",marginLeft:"0%",position:"relative",marginBottom:"-5%",marginTop:"2%"}} id="sImage" /><br></br><br></br>
