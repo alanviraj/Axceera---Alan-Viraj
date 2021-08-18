@@ -38,7 +38,7 @@ class Insert_Pet extends Component {
         /**Http url path */
         axios.post('https://61139ba1cba40600170c1b2a.mockapi.io/pets',pet)
         .then(response=> {
-            //window.location = '/get-allRPayment/'
+            window.location = '/view-all-pet'
             alert('Pet Detail Inserted Successfully')
         })
         .catch(error => {
